@@ -25,6 +25,6 @@ if __name__ == "__main__":
         print("-------- day %s --------" % day)
         print("name, sellIn, quality")
         for item in items:
-            print(item)
+            print(item.name, item.quality, item.sell_in)
         print("")
         GildedRose(items).update_quality()
